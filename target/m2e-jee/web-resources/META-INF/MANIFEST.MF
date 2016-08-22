@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Built-By: linjiang
-Build-Jdk: 1.7.0_45
-Implementation-Title: interflow Maven Webapp
-Implementation-Version: 0.0.1-SNAPSHOT
-Implementation-Vendor-Id: zaoyi-it-interflow
-Created-By: Maven Integration for Eclipse
-
