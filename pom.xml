@@ -2,11 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>myTest05</groupId>
-	<artifactId>myTest05</artifactId>
+	<groupId>zaoyi-it-interflow</groupId>
+	<artifactId>zaoyi-it-interflow</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>myTest05 Maven Webapp</name>
+	<name>zaoyi-it-interflow</name>
 	<!-- maven中央库 -->
 	<url>http://maven.apache.org</url>
 <!-- 	<pluginRepositories>
