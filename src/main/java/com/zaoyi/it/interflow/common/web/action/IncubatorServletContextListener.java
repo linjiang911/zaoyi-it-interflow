@@ -1,0 +1,26 @@
+package com.zaoyi.it.interflow.common.web.action;
+
+import javax.servlet.ServletContextEvent;
+import javax.servlet.ServletContextListener;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.zaoyi.it.interflow.common.util.Application;
+import com.zaoyi.it.interflow.common.util.Configs;
+
+public class IncubatorServletContextListener implements ServletContextListener {
+	private static final Logger log = LoggerFactory.getLogger(IncubatorServletContextListener.class);
+
+	@Override
+	public void contextDestroyed(ServletContextEvent event) {
+		log.info("contextDestroyed");
+	}
+
+	@Override
+	public void contextInitialized(ServletContextEvent event) {
+		log.info("contextInitialized");
+		event.getServletContext().setAttribute(Application.attr_name_site_name,
+				Configs.get().getString("system.site_name"));
+	}
+}
