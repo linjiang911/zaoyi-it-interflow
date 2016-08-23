@@ -8,6 +8,6 @@
 			                http://www.springframework.org/schema/context
 			                http://www.springframework.org/schema/context/spring-context-2.5.xsd">
 		
-		<bean id="baidu" class="com.zaoyi.mavent.common.util.BaiduTranslate"/>
+		<bean id="baidu" class="com.zaoyi.it.interflow.common.util.BaiduTranslate"/>
 </beans>
  

@@ -15,17 +15,6 @@ import org.apache.commons.httpclient.methods.GetMethod;
  */
 public class SMSUtil {
 
-	/**
-	 * 
-	 * @param url 搴旂敤鍦板潃锛岀被浼间簬http://ip:port/msg/
-	 * @param account 璐﹀彿
-	 * @param pswd 瀵嗙爜
-	 * @param mobile 鎵嬫満鍙风爜锛屽涓彿鐮佷娇鐢�,"鍒嗗壊
-	 * @param msg 鐭俊鍐呭
-	 * @param needstatus 鏄惁闇�鐘舵�鎶ュ憡锛岄渶瑕乼rue锛屼笉闇�false
-	 * @return 杩斿洖鍊煎畾涔夊弬瑙丠TTP鍗忚鏂囨。
-	 * @throws Exception
-	 */
 	public static String send(String url, String account, String pswd, String mobile, String msg,
 			boolean needstatus, String product, String extno) throws Exception {
 		HttpClient client = new HttpClient();

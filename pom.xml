@@ -3,44 +3,14 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>zaoyi-it-interflow</groupId>
-	<artifactId>zaoyi-it-interflow</artifactId>
+	<artifactId>interflow</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>zaoyi-it-interflow</name>
+	<name>interflow Maven Webapp</name>
 	<!-- maven中央库 -->
 	<url>http://maven.apache.org</url>
-<!-- 	<pluginRepositories>
-		<pluginRepository>
-			<id>Codehaus repository</id>
-			<url>http://repository.codehaus.org/</url>
-			<releases>
-				<enabled>true</enabled>
-				<updatePolicy>always</updatePolicy>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-				<updatePolicy>always</updatePolicy>
-			</snapshots>
-		</pluginRepository>
-	</pluginRepositories> -->
-	
-	<!-- <profiles>
-  <profile>
-    <id>local</id>
-    <properties>
-      <performancetest.webservice.host>localhost</performancetest.webservice.host>
-      <performancetest.webservice.port>8080</performancetest.webservice.port>
-    </properties>
-  </profile>
-  <profile>
-    <id>jenkins</id>
-    <properties>
-      <performancetest.webservice.host>my.test.system</performancetest.webservice.host>
-      <performancetest.webservice.port>80</performancetest.webservice.port>
-    </properties>
-  </profile> -->
 	<build>
-		<finalName>myTest05</finalName>
+		<finalName>interflow</finalName>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<resources>
 			<resource>
