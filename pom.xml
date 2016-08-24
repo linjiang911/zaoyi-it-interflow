@@ -2,15 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>zaoyi-it-interflow</groupId>
-	<artifactId>interflow</artifactId>
+	<groupId>net.zaoyi</groupId>
+	<artifactId>zaoyi-it-interflow</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>interflow Maven Webapp</name>
+	<version>0.0.1</version>
+	<name>zaoyi-it-interflow</name>
 	<!-- maven中央库 -->
 	<url>http://maven.apache.org</url>
 	<build>
-		<finalName>interflow</finalName>
+		<finalName>zaoyi-it-interflow</finalName>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<resources>
 			<resource>
